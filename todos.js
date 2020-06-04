@@ -12,4 +12,6 @@ button.addEventListener("click", function(e) {
     todoliste.innerHTML += `
     <li  class="list-item todos-list_item">${input.value}</li>
     `
+    input.value = ''
+    input.focus()
 })
