@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDos liste</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.js"></script>
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css">-->
+    <link rel="stylesheet" href="styles.scss">
+    <style>
+        input {
+    color: black !important;
+}
+    </style>
+</head>
+<body>
+    <div class="container" id="app">
+        <header class="hero is-primary">
+            <div class="hero-body">
+            <h1 class="title">Todos Liste</h1>
+            <form action="" class="form">
+                
+                <label for="" class="label">Intitulé : </label>
+                <input type="text" class="input">
+                <button class="button">Ajouter</button>
+           
+            </form>
+            </div> <!-- .hero-body -->
+        </header>
+        <hr>
+        <main class="content">
+            <h2 class="title has-text-centered">A faire</h2>
+            <ul class="list">
+                <li  class="list-item">
+               Première tâche
+                </li>
+            </ul>
+            <p>Pas de todo</p>
+        </main>       
+        <footer class="footer hero">
+            <p class="content has-text-centered">&copy; P. Charlier - 2020</p>
+        </footer>
+    </div>
+    <script src="./todos.js"></script>
+</body>
+</html>
